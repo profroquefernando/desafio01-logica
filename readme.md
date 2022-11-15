@@ -1,17 +1,17 @@
-## DESAFIO - LÓGICA
+# DESAFIO - LÓGICA
 
-# Fase 1
+## Fase 1
 - crie um array dinâmico com três posições [2,1,2]
 - crie uma iteração que retorne números aleatórios entre 1 e 3
  -a cada retorno da iteração, altere o valor do array respectivamente
 
-# Fase 2
+## Fase 2
 - insira as linhas já codificadas uma função
 - crie uma verificação que identifica se a sequência de números do array são iguais (Ex: 111,222 ou 333)
  -- Se sim: escreva 'Porta x: aberta'
  -- Se não: escreva 'Tente de novo!'
 
-# Fase 3
+## Fase 3
 
 - crie uma variável de controle para acumular a quantidade de vezes em que a sequência obtida exibe números iguais
 - na verificação 'se sim /se não' substitua 'Porta x' por `Porta${variável de controle}`
