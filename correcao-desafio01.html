@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Correção Desafio 01</title>
+    </head>
+    <body>
+        <h1>Correção - Desafio 01</h1>
+        <script>
+            const num = [0, 0, 0]
+            let qtdPortas = 0
+
+            function sorteiaNumero() {
+                return parseInt(Math.random() * 3) + 1 //entre 1 e 3
+            }
+            function aplicaSorteio(meuArray) {
+                meuArray.forEach((numeros, i) => {
+                    meuArray[i] = sorteiaNumero()
+                })
+                return meuArray
+            }
+            function checkSequencia(meuArray) {
+                let sequenciaIgual
+                meuArray.forEach((numeros, i) => {
+                    sequenciaIgual =
+                        numeros === num[0] &&
+                        numeros === num[1] &&
+                        numeros === num[2]
+                })
+                return sequenciaIgual
+            }
+            function checkAnteriorAtual(meuArray) {
+                const resultadoAnterior = meuArray.join(' ')
+                const resultadoAtual = aplicaSorteio(num).join(' ')
+                console.log(
+                    `resultadoAnterior: ${resultadoAnterior}`,
+                    `resultadoAtual: ${resultadoAtual}`
+                )
+                const anteriorAtual = resultadoAnterior === resultadoAtual
+                return anteriorAtual
+            }
+            function pontuacao(check1, check2) {
+                const style = 'color:green;font-size:1.4rem'
+                check1 ? qtdPortas++ : null
+                //confere anteriorAtual
+                const validaAnterior = check1
+                    ? `Porta ${qtdPortas}: aberta`
+                    : `Tente Novamente`
+                console.log(`%c${validaAnterior}`, style)
+                
+                check2 && !check1 ? qtdPortas++ : null
+                //confere sequencia igual
+                const validaIgual = check2 && !check1
+                    ? `Porta ${qtdPortas}: aberta`
+                    : `Tente Novamente`
+                console.log(`%c${validaIgual}`, style)
+            }
+            //Teste
+            for (let i = 0; i < 50; i++) {
+                console.log('AnterioAtual: ', checkAnteriorAtual(num))
+                console.log('Sequencia: ', checkSequencia(num))
+                pontuacao(checkAnteriorAtual(num))
+                if(qtdPortas === 3){
+                    const styleWin = 'color:green;font-size:1.4rem'
+                    const msgWin = 'Você venceu !!!!!!! \\o/ !!!!!!!'
+                    console.log(`Quantidade de Tentativas: ${i+1}`) 
+                    console.log(`%c${msgWin}`, styleWin)
+                    break
+                }
+            }
+        </script>
+    </body>
+</html>
