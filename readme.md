@@ -17,9 +17,9 @@
 - na verificação 'se sim /se não' substitua 'Porta x' por `Porta${variável de controle}`
 - crie uma variável que armazene o valor do último sorteio
 - compare a valor do último sorteio com o valor do sorteio atual
- - Se os valores forem iguais: escreva 'Porta (x)' : aberta
- - Se os valores forem diferentes: 
-        escreva 'Tente de novo' (Com a exceção do resultado ser de números iguais)
+       - Se os valores forem iguais: escreva 'Porta (x)' : aberta
+       - Se os valores forem diferentes: 
+              escreva 'Tente de novo' (Com a exceção do resultado ser de números iguais)
 
 As portas serão abertas quando: 
     - a sequência dos números do array forem iguais ou
@@ -42,5 +42,5 @@ Fim do jogo acontece quando a terceira porta for aberta.
 - [1,2,3] 5º //porta fechada 
 - [3,2,1] 6º //porta fechada
 - [3,3,3] 7º //porta3 aberta - variavelControle++  Ok, você conseguiu!!!!
- - Interromper o loop de teste
- - Imprimir um log de resultados
+       - Interromper o loop de teste
+       - Imprimir um log de resultados
