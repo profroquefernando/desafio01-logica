@@ -29,13 +29,16 @@ As portas serão abertas quando:
   
 Fim do jogo acontece quando a terceira porta for aberta. 
 
+---
+
 ### Opcionalmente:
 - contabilize a quantidade de tentativas necessárias para ganhar o jogo
 - contabilize a quantidade de ocorrências onde a sequência de números do array é composta de números idênticos
 - contabilize a quantidade de ocorrencias onde o resultado anterior é igual ao resultado atual
 
+---
 
-### Exemplo
+### Exemplo:
 
 - [1,3,2] 1º //porta fechada
 - [3,2,2] 2º //porta fechada
