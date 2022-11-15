@@ -3,13 +3,13 @@
 ## Fase 1
 - crie um array dinâmico com três posições [2,1,2]
 - crie uma iteração que retorne números aleatórios entre 1 e 3
- -a cada retorno da iteração, altere o valor do array respectivamente
+- a cada retorno da iteração, altere o valor do array respectivamente
 
 ## Fase 2
 - insira as linhas já codificadas uma função
 - crie uma verificação que identifica se a sequência de números do array são iguais (Ex: 111,222 ou 333)
- - Se sim: escreva 'Porta x: aberta'
- - Se não: escreva 'Tente de novo!'
+   - Se sim: escreva 'Porta x: aberta'
+   - Se não: escreva 'Tente de novo!'
 
 ## Fase 3
 
