@@ -33,19 +33,14 @@ Fim do jogo acontece quando a terceira porta for aberta.
 - contabilize a quantidade de ocorrencias onde o resultado anterior é igual ao resultado atual
 
 
+### Exemplo
 
-[1,3,2] 1º // ant - porta fechada
-[3,2,2] 2º //sorteio = porta fechada
-[3,2,2] 3º //porta1 aberta - variavelControle++
-[2,2,2] 4º //porta2 aberta - variavelControle++
-[1,2,3] 5º //porta fechada 
-[3,2,1] 6º //porta fechada
-[3,3,3] 7º //porta3 aberta - variavelControle++
-Ok, você conseguiu!!!!
- - Interromper o loop de teste
- - Imprimir um log de resultados
-
-
-[1,2,3]
-[2,2,2]
-[2,2,2]
+- [1,3,2] 1º // ant - porta fechada
+- [3,2,2] 2º //sorteio = porta fechada
+- [3,2,2] 3º //porta1 aberta - variavelControle++
+- [2,2,2] 4º //porta2 aberta - variavelControle++
+- [1,2,3] 5º //porta fechada 
+- [3,2,1] 6º //porta fechada
+- [3,3,3] 7º //porta3 aberta - variavelControle++  Ok, você conseguiu!!!!
+ -- Interromper o loop de teste
+ -- Imprimir um log de resultados
