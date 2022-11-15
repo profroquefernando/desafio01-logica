@@ -8,6 +8,8 @@
 ## Fase 2
 - insira as linhas já codificadas uma função
 - crie uma verificação que identifica se a sequência de números do array são iguais (Ex: 111,222 ou 333)
+
+
                   - Se sim: escreva 'Porta x: aberta'
                   - Se não: escreva 'Tente de novo!'
 
