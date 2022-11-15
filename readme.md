@@ -35,8 +35,8 @@ Fim do jogo acontece quando a terceira porta for aberta.
 
 ### Exemplo
 
-- [1,3,2] 1º // ant - porta fechada
-- [3,2,2] 2º //sorteio = porta fechada
+- [1,3,2] 1º //porta fechada
+- [3,2,2] 2º //porta fechada
 - [3,2,2] 3º //porta1 aberta - variavelControle++
 - [2,2,2] 4º //porta2 aberta - variavelControle++
 - [1,2,3] 5º //porta fechada 
