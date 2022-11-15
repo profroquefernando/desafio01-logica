@@ -18,8 +18,7 @@
 - crie uma variável que armazene o valor do último sorteio
 - compare a valor do último sorteio com o valor do sorteio atual
        - Se os valores forem iguais: escreva 'Porta (x)' : aberta
-       - Se os valores forem diferentes: 
-              escreva 'Tente de novo' (Com a exceção do resultado ser de números iguais)
+       - Se os valores forem diferentes: escreva 'Tente de novo' (Com a exceção do resultado ser de números iguais)
 
 As portas serão abertas quando: 
     - a sequência dos números do array forem iguais ou
