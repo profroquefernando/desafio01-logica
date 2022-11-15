@@ -6,9 +6,9 @@
               Caso a sequência dos números do array obtidos na jogada forem iguais (111,222 ou 333) ou, 
               se a sequência de números anterior for idêntica a sequência de números atual, o jogador ganhará 
               um ponto. O jogador pode ganhar apenas um ponto a mais em cada jogada (caso aconteça do resultado 
-              anterior ser identico ao resultado atual e ainda a sequencia do resultado atual ser 111,222 ou 333, o jogador só 
-              ganhará um ponto a mais). Cada ponto obtido pelo jogador abre uma porta. Ao abrir a 3ª porta, 
-              o jogador vencerá o jogo.
+              anterior ser identico ao resultado atual e ainda a sequencia do resultado atual ser 111,222 ou 333,
+              o jogador só ganhará um ponto a mais). Cada ponto obtido pelo jogador abre uma porta. 
+              Ao abrir a 3ª porta, o jogador vencerá o jogo.
 
 ## Fase 1
 - crie um array dinâmico com três posições [2,1,2]
