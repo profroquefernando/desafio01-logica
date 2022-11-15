@@ -1,5 +1,9 @@
 # DESAFIO - LÓGICA
 
+## Objetivo:
+
+              Cria uma lógica onde a cada jogada são aterados os valores de um array com três posições. Caso a sequência dos números do array obtidos na jogada forem iguais ou se a sequência de números anterior for idêntica a sequência de números atual, o jogador ganhará um ponto. O jogador só pode ganhar um ponto a mais em cada jogada (caso aconteça do resultado anterior ser identico ao resultado atual e ainda as sequencias serem 111,222 ou 333, o jogador só ganha um ponto a mais)
+
 ## Fase 1
 - crie um array dinâmico com três posições [2,1,2]
 - crie uma iteração que retorne números aleatórios entre 1 e 3
